@@ -2,18 +2,47 @@
     width: 160px;
     height: 60px;
   }
-  
-  .navbar-toggler-icon {
-    color: rgb(224, 213, 47);
-  }
-  
+
   .nav-item {
     font-weight: bolder;
   }
   
   .navbar-light .navbar-nav .nav-link.active-link {
-    color: rgb(114, 105, 105);
+    color: rgb(218,145,0);
   }
+  
   .navbar-light .navbar-nav .nav-link {
     color: rgb(0, 0, 0);
+  }
+
+  .intro .container-fluid img {
+    border-radius: 30px;
+    max-height: 80vh;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .intro .container-fluid {
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .comment h1 {
+    color: rgb(218,145,0);
+    font-weight: bolder;
+  }
+  
+  
+  @media only screen and (max-width: 1100px) {
+    .intro .container-fluid {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .comment {
+      text-align: center;
+      margin-top: 20px;
+    }
   }

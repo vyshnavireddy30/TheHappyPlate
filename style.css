@@ -1,0 +1,19 @@
+.navbar-brand img {
+    width: 160px;
+    height: 60px;
+  }
+  
+  .navbar-toggler-icon {
+    color: rgb(224, 213, 47);
+  }
+  
+  .nav-item {
+    font-weight: bolder;
+  }
+  
+  .navbar-light .navbar-nav .nav-link.active-link {
+    color: rgb(114, 105, 105);
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+  }
